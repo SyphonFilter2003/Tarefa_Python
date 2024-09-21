@@ -38,7 +38,7 @@ def navegar_pagina(index):
 
 listagem_geral = []
 
-for opcao in [0, 3, 2]:  # Alterna entre as opções de
+for opcao in [0, 3, 2]: 
     selecionar_opcao(opcao)
     listagem_geral.extend(obter_listagem())
 
